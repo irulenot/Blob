@@ -1,10 +1,17 @@
 # Blob
-Simple game using ML
 
-Design
-  1) You play a game with a ball that jumps up and down past some randomly generated posts  
-    a) Built with Pygame
-  2) Your jumps are logged and transformed into data for a model  
-    a) Unsure what I'm going to use
-  3) You watch a ML model jump over ledges based on your performance  
-    a) Probably with scikit-learn
+
+FILE STRUCTURE  
+game		Contains the code for the game.  
+pm		Contains project management documents.  
+venv.yaml	Used to create dependencies with Anaconda.  
+
+
+DEPENDENCIES  
+This project requires Anaconda3. After installation restart your terminal. Once prepared, cd to venv.yml and create the environment with 'conda-env create -f venv.yml'. Then access the environment with 'source activate Blob'. Finally run the program in the game directory with 'python app.py'.
+
+
+
+
+GOOD RESOURCE FOR DEPENDENCIES  
+https://conda.io/docs/user-guide/tasks/manage-environments.html#sharing-an-environment
