@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 Finally, run with
 
 ```
-python3 game/app.py
+python3 game/Blob.py
 ```
 
 ## FILE STRUCTURE
