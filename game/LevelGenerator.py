@@ -1,5 +1,4 @@
 from Level import Level
-from Platform import Platform
 from MovingPlatform import MovingPlatform
 import Constants
 

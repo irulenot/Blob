@@ -1,0 +1,23 @@
+CURRENT TASKS
+1) Play logic
+
+
+PRIMARY TASKS
+1) State logic
+    - Want to have a game with the states MENU, PLAY, WATCH
+
+    a) PLAY logic
+        - Blob dodges pillars until failure then returns to MENU state
+
+    b) MENU logic
+        - Choose PLAY state or WATCH state
+
+    c) WATCH logic
+        - Blob model attempt to complete obstacle course
+
+
+SECONDAY TASKS
+1) Improve visuals
+    - background
+    - blocks
+    - blob
