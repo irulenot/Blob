@@ -1,7 +1,7 @@
 from Level import Level
 from Platform import Platform
 from MovingPlatform import MovingPlatform
-import constants
+import Constants
 
 
 class LevelGenerator(Level):
@@ -29,7 +29,7 @@ class LevelGenerator(Level):
         level = []
 
         # height, width, x, and y
-        level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, constants.BLOCK_X_START, constants.BLOCK_Y_START])
+        level.append([Constants.BLOCK_HEIGHT, Constants.BLOCK_WIDTH, Constants.BLOCK_X_START, Constants.BLOCK_Y_START])
         # level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, 800, 400])
         # level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, 1000, 500])
         # level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, 1120, 280])

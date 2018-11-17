@@ -1,4 +1,4 @@
-import constants
+import Constants
 import pygame
 
 
@@ -12,6 +12,6 @@ class Platform(pygame.sprite.Sprite):
         super().__init__()
 
         self.image = pygame.Surface([width, height])
-        self.image.fill(constants.GREEN)
+        self.image.fill(Constants.GREEN)
 
         self.rect = self.image.get_rect()

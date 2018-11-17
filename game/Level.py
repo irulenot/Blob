@@ -1,5 +1,5 @@
 import pygame
-import constants
+import Constants
 
 class Level(object):
     """ This is a generic super-class used to define a level.
@@ -31,7 +31,7 @@ class Level(object):
         """ Draw everything on this level. """
 
         # Draw the background
-        screen.fill(constants.BLUE)
+        screen.fill(Constants.BLUE)
 
         # Draw all the sprite lists that we have
         self.platform_list.draw(screen)
