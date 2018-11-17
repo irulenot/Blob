@@ -17,5 +17,6 @@ BLOCK_HEIGHT = 70
 BLOCK_X_START = SCREEN_WIDTH
 BLOCK_Y_START = 540 # unsure how to get proper number
 
-# Music from https://www.dl-sounds.com/royalty-free/platformer2/
+# Resource Paths
 MUSIC_PATH = '../resources/Platformer2.mp3'
+BACKGROUND_PATH = '../resources/Game_Background_175.png'

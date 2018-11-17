@@ -15,7 +15,8 @@ class Level(object):
         self.player = player
 
         # Background image
-        self.background = None
+        self.background = pygame.image.load("../resources/Game_Background_175.png").convert()
+        # self.background = pygame.transform.scale(self.background, Constants.SCREEN_DIMENSIONS)
 
         # How far this world has been scrolled left/right
         self.world_shift = 0
@@ -31,6 +32,7 @@ class Level(object):
         """ Draw everything on this level. """
 
         # Draw the background
+        # screen.blit(self.background, [0, 0])
         screen.fill(Constants.BLUE)
 
         # Draw all the sprite lists that we have
