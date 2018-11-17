@@ -1,5 +1,6 @@
 import pygame
 import constants
+from LevelGenerator import LevelGenerator
 from Level_02 import Level_02
 from Level_01 import Level_01
 from Player import Player
@@ -19,8 +20,7 @@ player = Player()
 
 # Create all the levels
 level_list = []
-level_list.append(Level_01(player))
-level_list.append(Level_02(player))
+level_list.append(LevelGenerator(player))
 
 # Set the current level
 current_level_no = 0
