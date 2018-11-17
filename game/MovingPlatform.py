@@ -1,4 +1,5 @@
 import pygame
+import Constants
 from Platform import Platform
 
 
@@ -25,7 +26,7 @@ class MovingPlatform(Platform):
             or add code to handle what happens if they don't. """
 
         # Move left/right
-        self.rect.x += self.change_x
+        self.rect.x -= self.change_x
 
         # See if we hit the player
         hit = pygame.sprite.collide_rect(self, self.player)
@@ -56,11 +57,7 @@ class MovingPlatform(Platform):
             else:
                 self.player.rect.top = self.rect.bottom
 
-        # Check the boundaries and see if we need to reverse
-        # direction.
-        if self.rect.bottom > self.boundary_bottom or self.rect.top < self.boundary_top:
-            self.change_y *= -1
-
         cur_pos = self.rect.x - self.level.world_shift
-        if cur_pos < self.boundary_left or cur_pos > self.boundary_right:
-            self.change_x *= -1
+
+        if cur_pos <= -Constants.BLOCK_WIDTH:
+            self.kill()

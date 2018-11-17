@@ -37,10 +37,11 @@ done = False
 # Used to manage how fast the screen updates
 clock = pygame.time.Clock()
 
+# MUTED FOR DEVELOPMENT
 # Play music
-pygame.mixer.music.load(Constants.MUSIC_PATH)
-pygame.mixer.music.set_endevent(pygame.constants.USEREVENT)
-pygame.mixer.music.play()
+# pygame.mixer.music.load(Constants.MUSIC_PATH)
+# pygame.mixer.music.set_endevent(pygame.constants.USEREVENT)
+# pygame.mixer.music.play()
 
 # -------- Main Program Loop -----------
 while not done:
@@ -68,10 +69,11 @@ while not done:
     # Update items in the level
     current_level.update()
 
+    # MUTED FOR DEVELOPMENT
     # Replays song if it ends
-    if event.type == pygame.constants.USEREVENT:
-        pygame.mixer.music.load('../resources/Platformer2.mp3')
-        pygame.mixer.music.play()
+    # if event.type == pygame.constants.USEREVENT:
+    #     pygame.mixer.music.load('../resources/Platformer2.mp3')
+    #     pygame.mixer.music.play()
 
     # If the player gets near the right side, shift the world left (-x)
     if player.rect.right >= 500:

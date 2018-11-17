@@ -12,10 +12,10 @@ SCREEN_WIDTH = 1334
 SCREEN_HEIGHT = 750
 
 # Block dimensions
-BLOCK_WIDTH = 210
-BLOCK_HEIGHT = 70
-BLOCK_X_START = SCREEN_WIDTH
-BLOCK_Y_START = 540 # unsure how to get proper number
+BLOCK_WIDTH = 50
+BLOCK_HEIGHT = 100
+BLOCK_X_START = 500
+BLOCK_Y_START = SCREEN_HEIGHT - BLOCK_HEIGHT
 
 # Music from https://www.dl-sounds.com/royalty-free/platformer2/
 MUSIC_PATH = '../resources/Platformer2.mp3'

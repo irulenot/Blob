@@ -27,9 +27,7 @@ class LevelGenerator(Level):
     def generatePlatforms(self):
         level = []
 
-        # height, width, x, and y
-        level.append([Constants.BLOCK_HEIGHT, Constants.BLOCK_WIDTH, Constants.BLOCK_X_START, Constants.BLOCK_Y_START])
-        # level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, 800, 400])
-        # level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, 1000, 500])
-        # level.append([constants.BLOCK_HEIGHT, constants.BLOCK_WIDTH, 1120, 280])
+        for n in range(0, 2):
+            level.append([Constants.BLOCK_WIDTH, Constants.BLOCK_HEIGHT, Constants.BLOCK_X_START + n*500, Constants.BLOCK_Y_START])
+
         return level
