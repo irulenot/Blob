@@ -14,10 +14,10 @@ class LevelAndPillar(Level):
 
 
     # Creates 2 pillars
-    def generatePillar(self, mod):
+    def generatePillar(self):
 
         pillar = Pillar(Constants.PILLAR_WIDTH, Constants.PILLAR_HEIGHT)
-        pillar.rect.x = Constants.PILLAR_X_START + mod
+        pillar.rect.x = Constants.PILLAR_X_START
         pillar.rect.y = Constants.PILLAR_Y_START
         pillar.boundary_left = 0
         pillar.boundary_right = 2000

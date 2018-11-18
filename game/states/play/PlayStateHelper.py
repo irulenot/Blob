@@ -10,13 +10,13 @@ from states.play.Player import Player
 # Creates player and pillar assets
 def prepareAssets():
     player = Player()
-    play_state = LevelAndPillar(player)
-    return player, play_state
+    level_and_pillar = LevelAndPillar(player)
+    return player, level_and_pillar
 
 
 # Define player's properties
-def initalizePlayer(player, play_state):
-    player.level = play_state
+def initalizePlayer(player, level_and_pillar):
+    player.level = level_and_pillar
     player.rect.x = 340
     player.rect.y = Constants.SCREEN_HEIGHT - player.rect.height
 
@@ -28,10 +28,11 @@ def createPlayerGroup(player):
     return player_group
 
 
-# Starts game music and creates the clock
-def createGameUtilities():
+# Starts game music, creates the clock, and creates pillar generation timer
+def createLoopUtilities():
     playMusic(True)
     clock = pygame.time.Clock()
+    pygame.time.set_timer(Constants.GENERATE_PILLAR, Constants.GENERATE_PILLAR_FREQUENCY)
     return clock
 
 
@@ -44,7 +45,7 @@ def playMusic(firstTimePlaying):
 
 
 # Handles player movement
-def playerMovement(event, player):
+def playerMovementEvents(event, player):
     if (event.type == pygame.KEYDOWN):
         if (event.key == pygame.K_LEFT):
             player.go_left()
@@ -59,38 +60,39 @@ def playerMovement(event, player):
             player.stop()
 
 
-# Handles exit button or pillar hit and loops music when finished
-def updateGameUtilities(event, done):
-    if (event.type == pygame.QUIT):
-        done = True
+# Handles exit button and loops music when finished
+# Handles pillar hit and pillar generation
+def handleEvents(event, level_and_pillar, done):
     if (event.type == Constants.HIT_PILLAR):
         done = True
+    if (event.type == Constants.GENERATE_PILLAR):
+        level_and_pillar.generatePillar()
 
     if (event.type == Constants.MUSIC_STOPPED):
         playMusic(False)
+
+    if (event.type == pygame.QUIT):
+        done = True
     return done
 
 
 # Updates player and pillars
-def updateAssets(player_group, play_state):
+def updateAssets(player_group, level_and_pillar):
     player_group.update()
-    play_state.update()
+    level_and_pillar.update()
 
 
-# Shifts world if player goes near left or right
-def playerBorders(player, play_state):
+# Keeps player within borders
+def playerBorders(player):
     if (player.rect.right >= 500):
-        player.go_right()
-        diff = player.rect.right - 500
         player.rect.right = 500
     if (player.rect.left <= 120):
-        diff = 120 - player.rect.left
         player.rect.left = 120
 
 
 # Draws assets and pillars and runs at 60fps
-def render(play_state, player_group, clock, screen):
-    play_state.draw(screen)
+def render(level_and_pillar, player_group, clock, screen):
+    level_and_pillar.draw(screen)
     player_group.draw(screen)
 
     clock.tick(60)

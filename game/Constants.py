@@ -13,11 +13,12 @@ BLUE = (0, 0, 255)
 SCREEN_WIDTH = 1334
 SCREEN_HEIGHT = 750
 
-# Pillar dimensions
+# Pillar properties
 PILLAR_WIDTH = 50
 PILLAR_HEIGHT = 100
-PILLAR_X_START = 700
+PILLAR_X_START = SCREEN_WIDTH
 PILLAR_Y_START = SCREEN_HEIGHT - PILLAR_HEIGHT
+GENERATE_PILLAR_FREQUENCY = 2 * 1000                # 1 Pillar every 2 seconds
 
 # File paths
 MUSIC_PATH = '../resources/Platformer2.mp3'
@@ -30,3 +31,4 @@ WATCH_STATE = "WATCH"
 # Events
 MUSIC_STOPPED = pygame.constants.USEREVENT
 HIT_PILLAR = pygame.constants.USEREVENT+1
+GENERATE_PILLAR = pygame.constants.USEREVENT+2
