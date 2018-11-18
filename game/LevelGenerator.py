@@ -16,22 +16,22 @@ class LevelGenerator(Level):
 
     # Describes where pillars spawn and what they do
     def pillarLogic(self, level):
-        for pillar in level:
-            block = Pillar(pillar[0], pillar[1])
-            block.rect.x = pillar[2]
-            block.rect.y = pillar[3]
-            block.boundary_left = 0
-            block.boundary_right = 2000
-            block.change_x = 5
-            block.player = self.player
-            block.level = self
-            self.pillar_list.add(block)
+        for pillar_temp in level:
+            pillar = Pillar(pillar_temp[0], pillar_temp[1])
+            pillar.rect.x = pillar_temp[2]
+            pillar.rect.y = pillar_temp[3]
+            pillar.boundary_left = 0
+            pillar.boundary_right = 2000
+            pillar.change_x = 5
+            pillar.player = self.player
+            pillar.level = self
+            self.pillar_list.add(pillar)
 
 
     # Creates 2 pillars
     def generatePillars(self):
         level = []
         for n in range(0, 2):
-            level.append([Constants.BLOCK_WIDTH, Constants.BLOCK_HEIGHT, Constants.BLOCK_X_START + n * 500,
-                          Constants.BLOCK_Y_START])
+            level.append([Constants.PILLAR_WIDTH, Constants.PILLAR_HEIGHT, Constants.PILLAR_X_START + n * 500,
+                          Constants.PILLAR_Y_START])
         return level

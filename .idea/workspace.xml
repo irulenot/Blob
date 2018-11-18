@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99432f20-da4f-401c-9e67-a8cbf4bacffe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/game/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/LevelGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/LevelGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/Pillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Pillar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/PlayStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/PlayStateHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Player.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="2" />
-          <entry key="py" value="36" />
+          <entry key="py" value="43" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -36,20 +34,20 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="97" />
-          <entry key="py" value="5273" />
+          <entry key="py" value="5314" />
           <entry key="txt" value="671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="768" />
-          <entry key="Python" value="5273" />
+          <entry key="Python" value="5314" />
         </counts>
       </usages-collector>
     </session>
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/Constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -80,22 +78,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/LevelGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="497">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/Pillar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,46 +100,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/Player.py">
+        <entry file="file://$PROJECT_DIR$/game/Level.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/PlayState.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game/PlayStateHelper.py">
+        <entry file="file://$PROJECT_DIR$/game/Player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1542532783657" expanded="true" signature="738:810" ph="..." />
-                <marker date="1542532783657" expanded="true" signature="1837:1838" ph="..." />
-                <marker date="1542532783657" expanded="true" signature="2436:2437" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/Level.py">
+        <entry file="file://$PROJECT_DIR$/game/Pillar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="390">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -180,9 +154,13 @@
       <find>change_x</find>
       <find>done</find>
       <find>platform</find>
+      <find>blocks</find>
+      <find>Platform</find>
+      <find>block</find>
     </findStrings>
     <replaceStrings>
       <replace>constants.SCREEN_WIDTH</replace>
+      <replace>PILLAR</replace>
       <replace>pillar</replace>
     </replaceStrings>
   </component>
@@ -203,17 +181,17 @@
         <option value="$PROJECT_DIR$/pm/todo.txt" />
         <option value="$PROJECT_DIR$/pm/specificaions.txt" />
         <option value="$PROJECT_DIR$/game/RunPlayState.py" />
-        <option value="$PROJECT_DIR$/game/Constants.py" />
         <option value="$PROJECT_DIR$/game/Initalization.py" />
         <option value="$PROJECT_DIR$/game/Blob.py" />
         <option value="$PROJECT_DIR$/game/PlayState.py" />
         <option value="$PROJECT_DIR$/game/Platform.py" />
         <option value="$PROJECT_DIR$/game/MovingPlatform.py" />
         <option value="$PROJECT_DIR$/game/Level.py" />
+        <option value="$PROJECT_DIR$/game/PlayStateHelper.py" />
+        <option value="$PROJECT_DIR$/game/Constants.py" />
         <option value="$PROJECT_DIR$/game/LevelGenerator.py" />
         <option value="$PROJECT_DIR$/game/Pillar.py" />
         <option value="$PROJECT_DIR$/game/Player.py" />
-        <option value="$PROJECT_DIR$/game/PlayStateHelper.py" />
       </list>
     </option>
   </component>
@@ -373,8 +351,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2043956" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2043956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989011" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,6 +418,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/game/PlayState.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/PlayStateHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1542532783657" expanded="true" signature="738:810" ph="..." />
+            <marker date="1542532783657" expanded="true" signature="1837:1838" ph="..." />
+            <marker date="1542532783657" expanded="true" signature="2436:2437" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/Blob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -452,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -479,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/LevelGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="497">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -489,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/Pillar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="390">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -499,30 +497,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/Player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/PlayState.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/PlayStateHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1542532783657" expanded="true" signature="738:810" ph="..." />
-            <marker date="1542532783657" expanded="true" signature="1837:1838" ph="..." />
-            <marker date="1542532783657" expanded="true" signature="2436:2437" ph="..." />
           </folding>
         </state>
       </provider>

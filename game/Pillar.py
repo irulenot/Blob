@@ -34,6 +34,6 @@ class Pillar(pygame.sprite.Sprite):
         if (hit == True):
             return True # TODO: We want this to stop the play state
 
-        # Deletes blocks after they leave window
-        if cur_pos <= -Constants.BLOCK_WIDTH:
+        # Deletes pillars after they leave window
+        if cur_pos <= -Constants.PILLAR_WIDTH:
             self.kill()
