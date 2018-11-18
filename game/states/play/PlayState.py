@@ -7,10 +7,9 @@ def runPlayState(screen):
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)
     player_group = createPlayerGroup(player)
-
-    # Play State Main Loop
     clock = createLoopUtilities()
 
+    # Play State Main Loop
     done = False
     while (done == False):
         for event in pygame.event.get():
@@ -20,3 +19,5 @@ def runPlayState(screen):
         updateAssets(player_group, level_and_pillar)
         playerBorders(player)
         render(level_and_pillar, player_group, clock, screen)
+
+    return Constants.MENU_STATE

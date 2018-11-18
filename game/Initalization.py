@@ -10,5 +10,5 @@ def loadEnvironment():
 
     size = [Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT]
     screen = pygame.display.set_mode(size)
-    current_state = Constants.PLAY_STATE
+    current_state = Constants.MENU_STATE
     return screen, current_state
