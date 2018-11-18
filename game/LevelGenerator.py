@@ -5,13 +5,11 @@ from MovingPlatform import MovingPlatform
 
 class LevelGenerator(Level):
 
+    # Initalizes player and platforms in level
     def __init__(self, player):
-
-        # initalizing player in level
         Level.__init__(self, player)
         self.level_limit = -1500
 
-        # initalizing platforms in level
         level = self.generatePlatforms()
         for platform in level:
             block = MovingPlatform(platform[0], platform[1])
@@ -24,6 +22,8 @@ class LevelGenerator(Level):
             block.level = self
             self.platform_list.add(block)
 
+
+    # Creates 2 platforms
     def generatePlatforms(self):
         level = []
 
