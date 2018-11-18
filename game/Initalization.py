@@ -1,6 +1,9 @@
 import pygame
+
 import Constants
 
+
+# Loads window and specifies title and size
 def loadEnvironment():
     pygame.init()
     pygame.display.set_caption("Blob")

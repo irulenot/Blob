@@ -1,5 +1,6 @@
-import Constants
 import pygame
+
+import Constants
 
 
 class Platform(pygame.sprite.Sprite):

@@ -1,11 +1,12 @@
 import pygame
+
 import Constants
+
 
 class Level(object):
     """ This is a generic super-class used to define a level.
         Create a child class for each level with level-specific
         info. """
-
 
     def __init__(self, player):
         """ Constructor. Pass in a handle to player. Needed for when moving

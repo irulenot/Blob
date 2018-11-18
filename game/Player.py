@@ -1,4 +1,5 @@
 import pygame
+
 import Constants
 from MovingPlatform import MovingPlatform
 

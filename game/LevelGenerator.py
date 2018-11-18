@@ -1,6 +1,6 @@
+import Constants
 from Level import Level
 from MovingPlatform import MovingPlatform
-import Constants
 
 
 class LevelGenerator(Level):
@@ -28,6 +28,7 @@ class LevelGenerator(Level):
         level = []
 
         for n in range(0, 2):
-            level.append([Constants.BLOCK_WIDTH, Constants.BLOCK_HEIGHT, Constants.BLOCK_X_START + n*500, Constants.BLOCK_Y_START])
+            level.append([Constants.BLOCK_WIDTH, Constants.BLOCK_HEIGHT, Constants.BLOCK_X_START + n * 500,
+                          Constants.BLOCK_Y_START])
 
         return level
