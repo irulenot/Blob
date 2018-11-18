@@ -21,7 +21,7 @@ class Pillar(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
 
 
-    # Continually updates platform movement, and logic
+    # Continually updates pillar movement, and logic
     def update(self):
 
         # Move left/right up/down

@@ -9,7 +9,7 @@ class Level(object):
 
     def __init__(self, player):
         """ Constructor. Pass in a handle to player. Needed for when moving
-            platforms collide with the player. """
+            pillars collide with the player. """
         self.pillar_list = pygame.sprite.Group()
         self.player = player
 

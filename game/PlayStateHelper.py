@@ -7,7 +7,7 @@ from Player import Player
 
 """ HELPER FUNCTIONS FOR PLAY STATE """
 
-# Creates player and platform assets
+# Creates player and pillar assets
 def prepareAssets():
     player = Player()
     play_state = LevelGenerator(player)
@@ -68,7 +68,7 @@ def updateGameUtilities(event, done):
     return done
 
 
-# Updates player and platforms
+# Updates player and pillars
 def updateAssets(player_group, play_state):
     player_group.update()
     play_state.update()
@@ -86,7 +86,7 @@ def playerBorders(player, play_state):
         play_state.shift_world(diff)
 
 
-# Draws assets and platforms and runs at 60fps
+# Draws assets and pillars and runs at 60fps
 def render(play_state, player_group, clock, screen):
     play_state.draw(screen)
     player_group.draw(screen)

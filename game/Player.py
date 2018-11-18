@@ -41,15 +41,15 @@ class Player(pygame.sprite.Sprite):
 
 
     def jump(self):
-        # move down a bit and see if there is a platform below us.
+        # move down a bit and see if there is a pillar below us.
         # Move down 2 pixels because it doesn't work well if we only move down
-        # 1 when working with a platform moving down.
+        # 1 when working with a pillar moving down.
         self.rect.y += 2
-        platform_hit_list = pygame.sprite.spritecollide(self, self.level.platform_list, False)
+        pillar_hit_list = pygame.sprite.spritecollide(self, self.level.pillar_list, False)
         self.rect.y -= 2
 
         # If it is ok to jump, set our speed upwards
-        if len(platform_hit_list) > 0 or self.rect.bottom >= Constants.SCREEN_HEIGHT:
+        if len(pillar_hit_list) > 0 or self.rect.bottom >= Constants.SCREEN_HEIGHT:
             self.change_y = -10
 
 

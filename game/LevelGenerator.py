@@ -7,19 +7,19 @@ class LevelGenerator(Level):
 
     level_limit = -1500
 
-    # Initalizes player and platforms in level
+    # Initalizes player and pillars in level
     def __init__(self, player):
         Level.__init__(self, player)
-        level = self.generatePlatforms()
-        self.platformLogic(level)
+        level = self.generatePillars()
+        self.pillarLogic(level)
 
 
-    # Describes where platforms spawn and what they do
-    def platformLogic(self, level):
-        for platform in level:
-            block = Pillar(platform[0], platform[1])
-            block.rect.x = platform[2]
-            block.rect.y = platform[3]
+    # Describes where pillars spawn and what they do
+    def pillarLogic(self, level):
+        for pillar in level:
+            block = Pillar(pillar[0], pillar[1])
+            block.rect.x = pillar[2]
+            block.rect.y = pillar[3]
             block.boundary_left = 0
             block.boundary_right = 2000
             block.change_x = 5
@@ -28,8 +28,8 @@ class LevelGenerator(Level):
             self.pillar_list.add(block)
 
 
-    # Creates 2 platforms
-    def generatePlatforms(self):
+    # Creates 2 pillars
+    def generatePillars(self):
         level = []
         for n in range(0, 2):
             level.append([Constants.BLOCK_WIDTH, Constants.BLOCK_HEIGHT, Constants.BLOCK_X_START + n * 500,
