@@ -1,4 +1,4 @@
-from PlayStateHelper import *
+from states.play.PlayStateHelper import *
 
 
 """ MAIN LOOP FOR PLAY STATE """

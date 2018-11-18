@@ -2,7 +2,7 @@ import pygame
 import Initalization
 import Constants
 
-from PlayState import runPlayState
+from states.play.PlayState import runPlayState
 
 
 """ MAIN LOOP """

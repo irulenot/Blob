@@ -1,8 +1,8 @@
 import pygame
 import Constants
 
-from LevelGenerator import LevelGenerator
-from Player import Player
+from states.play.PillarGenerator import PillarGenerator
+from states.play.Player import Player
 
 
 """ HELPER FUNCTIONS FOR PLAY STATE """
@@ -10,7 +10,7 @@ from Player import Player
 # Creates player and pillar assets
 def prepareAssets():
     player = Player()
-    play_state = LevelGenerator(player)
+    play_state = PillarGenerator(player)
     return player, play_state
 
 

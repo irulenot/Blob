@@ -1,9 +1,9 @@
 import Constants
-from Level import Level
-from Pillar import Pillar
+from states.play.Level import Level
+from states.play.Pillar import Pillar
 
 
-class LevelGenerator(Level):
+class PillarGenerator(Level):
 
     level_limit = -1500
 
