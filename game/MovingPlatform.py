@@ -42,6 +42,7 @@ class MovingPlatform(Platform):
             else:
                 # Otherwise if we are moving left, do the opposite.
                 self.player.rect.left = self.rect.right
+            print("HIT")
 
         # Move up/down
         self.rect.y += self.change_y
@@ -57,6 +58,7 @@ class MovingPlatform(Platform):
                 self.player.rect.bottom = self.rect.top
             else:
                 self.player.rect.top = self.rect.bottom
+            print("HIT")
 
         cur_pos = self.rect.x - self.level.world_shift
 
