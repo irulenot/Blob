@@ -8,6 +8,8 @@ def runPlayState(screen):
     player_group = createPlayerGroup(player)
     clock = createGameUtilities()
 
+    play_state.generatePillar(0)
+
     done = False
     while (done == False):
         for event in pygame.event.get():
