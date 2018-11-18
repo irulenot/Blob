@@ -1,5 +1,7 @@
 # Global constants
 
+import pygame
+
 # Colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -24,3 +26,7 @@ MUSIC_PATH = '../resources/Platformer2.mp3'
 PLAY_STATE = "PLAY"
 MENU_STATE = "MENU"
 WATCH_STATE = "WATCH"
+
+# Events
+MUSIC_STOPPED = pygame.constants.USEREVENT
+HIT_PILLAR = pygame.constants.USEREVENT+1

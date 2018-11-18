@@ -59,11 +59,14 @@ def playerMovement(event, player):
             player.stop()
 
 
-# Handles exit button and loops music when finished
+# Handles exit button or pillar hit and loops music when finished
 def updateGameUtilities(event, done):
     if (event.type == pygame.QUIT):
         done = True
-    if (event.type == pygame.constants.USEREVENT):
+    if (event.type == Constants.HIT_PILLAR):
+        done = True
+
+    if (event.type == Constants.MUSIC_STOPPED):
         playMusic(False)
     return done
 

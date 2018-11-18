@@ -32,7 +32,8 @@ class Pillar(pygame.sprite.Sprite):
         # See if we hit the player
         hit = pygame.sprite.collide_rect(self, self.player)
         if (hit == True):
-            return True # TODO: We want this to stop the play state
+            hit_event = pygame.event.Event(Constants.HIT_PILLAR)
+            pygame.event.post(hit_event)
 
         # Deletes pillars after they leave window
         if cur_pos <= -Constants.PILLAR_WIDTH:
