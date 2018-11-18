@@ -25,7 +25,7 @@ class LevelGenerator(Level):
             block.change_x = 5
             block.player = self.player
             block.level = self
-            self.platform_list.add(block)
+            self.pillar_list.add(block)
 
 
     # Creates 2 platforms
