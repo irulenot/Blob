@@ -1,6 +1,6 @@
 import Constants
 from Level import Level
-from MovingPlatform import MovingPlatform
+from Pillar import Pillar
 
 
 class LevelGenerator(Level):
@@ -17,7 +17,7 @@ class LevelGenerator(Level):
     # Describes where platforms spawn and what they do
     def platformLogic(self, level):
         for platform in level:
-            block = MovingPlatform(platform[0], platform[1])
+            block = Pillar(platform[0], platform[1])
             block.rect.x = platform[2]
             block.rect.y = platform[3]
             block.boundary_left = 0
