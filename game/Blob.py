@@ -1,14 +1,19 @@
 import pygame
-
 import Initalization
+import Constants
+
 from PlayState import runPlayState
 
-""" Main Program """
-screen = Initalization.loadEnvironment()
 
-# -------- Main Program Loop -----------
-runPlayState(screen)
+""" MAIN LOOP """
+screen, current_state = Initalization.loadEnvironment()
 
-# Be IDLE friendly. If you forget this line, the program will 'hang'
-# on exit.
+done = False
+while (done == False):
+
+    if (current_state == Constants.PLAY_STATE):
+        current_state = runPlayState(screen)
+
+    done = True
+
 pygame.quit()

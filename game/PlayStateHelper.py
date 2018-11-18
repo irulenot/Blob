@@ -38,32 +38,32 @@ def createGameUtilities():
 # Plays music and restarts music loop
 def playMusic(firstTimePlaying):
     pygame.mixer.music.load(Constants.MUSIC_PATH)
-    if firstTimePlaying is False:
+    if (firstTimePlaying == False):
         pygame.mixer.music.set_endevent(pygame.constants.USEREVENT)
     pygame.mixer.music.play()
 
 
 # Handles player movement
 def playerMovement(event, player):
-    if event.type == pygame.KEYDOWN:
-        if event.key == pygame.K_LEFT:
+    if (event.type == pygame.KEYDOWN):
+        if (event.key == pygame.K_LEFT):
             player.go_left()
-        if event.key == pygame.K_RIGHT:
+        if (event.key == pygame.K_RIGHT):
             player.go_right()
-        if event.key == pygame.K_UP:
+        if (event.key == pygame.K_UP):
             player.jump()
-    if event.type == pygame.KEYUP:
-        if event.key == pygame.K_LEFT and player.change_x < 0:
+    if (event.type == pygame.KEYUP):
+        if (event.key == pygame.K_LEFT) and (player.change_x < 0):
             player.stop()
-        if event.key == pygame.K_RIGHT and player.change_x > 0:
+        if (event.key == pygame.K_RIGHT) and (player.change_x > 0):
             player.stop()
 
 
 # Handles exit button and loops music when finished
 def updateGameUtilities(event, done):
-    if event.type == pygame.QUIT:
+    if (event.type == pygame.QUIT):
         done = True
-    if event.type == pygame.constants.USEREVENT:
+    if (event.type == pygame.constants.USEREVENT):
         playMusic(False)
     return done
 
@@ -76,11 +76,11 @@ def updateAssets(player_group, play_state):
 
 # Shifts world if player goes near left or right
 def playerBorders(player, play_state):
-    if player.rect.right >= 500:
+    if (player.rect.right >= 500):
         diff = player.rect.right - 500
         player.rect.right = 500
         play_state.shift_world(-diff)
-    if player.rect.left <= 120:
+    if (player.rect.left <= 120):
         diff = 120 - player.rect.left
         player.rect.left = 120
         play_state.shift_world(diff)

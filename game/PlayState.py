@@ -9,7 +9,7 @@ def runPlayState(screen):
     clock = createGameUtilities()
 
     done = False
-    while not done:
+    while (done == False):
         for event in pygame.event.get():
             playerMovement(event, player)
             done = updateGameUtilities(event, done)

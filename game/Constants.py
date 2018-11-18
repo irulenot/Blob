@@ -17,5 +17,10 @@ BLOCK_HEIGHT = 100
 BLOCK_X_START = 500
 BLOCK_Y_START = SCREEN_HEIGHT - BLOCK_HEIGHT
 
-# Music from https://www.dl-sounds.com/royalty-free/platformer2/
+# File paths
 MUSIC_PATH = '../resources/Platformer2.mp3'
+
+# States
+PLAY_STATE = "PLAY"
+MENU_STATE = "MENU"
+WATCH_STATE = "WATCH"
