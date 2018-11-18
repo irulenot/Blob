@@ -1,17 +1,12 @@
 import pygame
 import Constants
+import Initalization
 from LevelGenerator import LevelGenerator
 from Player import Player
 
 
 """ Main Program """
-pygame.init()
-
-# Set the height and width of the screen
-size = [Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT]
-screen = pygame.display.set_mode(size)
-
-pygame.display.set_caption("Platformer with moving platforms")
+screen = Initalization.loadEnvironment()
 
 # Create the player
 player = Player()
