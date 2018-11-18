@@ -1,6 +1,8 @@
 import pygame
 import Constants
 
+
+# Defines the player asset and its movement
 class Player(pygame.sprite.Sprite):
 
     def __init__(self):

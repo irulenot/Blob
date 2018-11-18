@@ -27,7 +27,7 @@ class Pillar(pygame.sprite.Sprite):
         # Move left/right up/down
         self.rect.x -= self.change_x
         self.rect.y += self.change_y
-        cur_pos = self.rect.x - self.level.world_shift
+        cur_pos = self.rect.x
 
         # See if we hit the player
         hit = pygame.sprite.collide_rect(self, self.player)

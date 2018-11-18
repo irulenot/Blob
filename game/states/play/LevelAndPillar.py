@@ -3,7 +3,8 @@ from states.play.Level import Level
 from states.play.Pillar import Pillar
 
 
-class PillarGenerator(Level):
+# Creates the level, puts the player in it, and generates the pillars and their properties
+class LevelAndPillar(Level):
 
     level_limit = -1500
 
@@ -22,7 +23,7 @@ class PillarGenerator(Level):
             pillar.rect.y = pillar_temp[3]
             pillar.boundary_left = 0
             pillar.boundary_right = 2000
-            pillar.change_x = 5
+            # pillar.change_x = 5
             pillar.player = self.player
             pillar.level = self
             self.pillar_list.add(pillar)

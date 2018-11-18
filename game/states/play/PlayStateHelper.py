@@ -1,7 +1,7 @@
 import pygame
 import Constants
 
-from states.play.PillarGenerator import PillarGenerator
+from states.play.LevelAndPillar import LevelAndPillar
 from states.play.Player import Player
 
 
@@ -10,7 +10,7 @@ from states.play.Player import Player
 # Creates player and pillar assets
 def prepareAssets():
     player = Player()
-    play_state = PillarGenerator(player)
+    play_state = LevelAndPillar(player)
     return player, play_state
 
 
@@ -80,13 +80,12 @@ def updateAssets(player_group, play_state):
 # Shifts world if player goes near left or right
 def playerBorders(player, play_state):
     if (player.rect.right >= 500):
+        player.go_right()
         diff = player.rect.right - 500
         player.rect.right = 500
-        play_state.shift_world(-diff)
     if (player.rect.left <= 120):
         diff = 120 - player.rect.left
         player.rect.left = 120
-        play_state.shift_world(diff)
 
 
 # Draws assets and pillars and runs at 60fps
