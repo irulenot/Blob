@@ -5,10 +5,17 @@ from game.states.menu.Button import Button
 
 # Creates button asset and assigns it to a group
 def loadAssets():
-    button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
-                    Constants.BUTTON_X_START, Constants.BUTTON_Y_START)
+    play_button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
+                    Constants.BUTTON_X_START, Constants.BUTTON_Y_START,
+                    Constants.CLICK_PLAY)
+
+    watch_button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
+                    Constants.BUTTON_X_START - Constants.BUTTON_WIDTH*2,
+                    Constants.BUTTON_Y_START, Constants.CLICK_PLAY)
+
     asset_group = pygame.sprite.Group()
-    asset_group.add(button)
+    asset_group.add(play_button)
+    asset_group.add(watch_button)
     return asset_group
 
 
@@ -41,6 +48,10 @@ def render(screen, clock, asset_group):
 
     font = pygame.font.SysFont('Arial', 29)
     screen.blit(font.render('PLAY', True, Constants.RED), (Constants.BUTTON_X_START, Constants.BUTTON_Y_START))
+
+    font = pygame.font.SysFont('Arial', 20)
+    screen.blit(font.render('WATCH', True, Constants.RED), (Constants.BUTTON_X_START+1 - Constants.BUTTON_WIDTH*2,
+                                                            Constants.BUTTON_Y_START))
 
     clock.tick(60)
     pygame.display.flip()
