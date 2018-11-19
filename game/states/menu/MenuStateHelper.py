@@ -25,12 +25,18 @@ def playMusic(firstTimePlaying):
     pygame.mixer.music.play()
 
 
-def handleEvents(event, done):
+def handleEvents(event, done, out_state):
     if (event.type == pygame.QUIT):
         done = True
+
     if (event.type == Constants.MUSIC_STOPPED):
         playMusic(False)
-    return done
+
+    if (event.type == Constants.CLICK_PLAY):
+        done = True
+        out_state = Constants.PLAY_STATE
+
+    return done, out_state
 
 
 def render(screen, clock, asset_group):

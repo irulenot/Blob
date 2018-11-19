@@ -19,4 +19,7 @@ class Button(pygame.sprite.Sprite):
 
 
     def update(self):
-        print(click = pygame.mouse.get_pressed())
+        pygame.mouse.get_pressed()
+        if (pygame.mouse.get_pressed()[0] == True) and (self.rect.collidepoint(pygame.mouse.get_pos())):
+            click_event = pygame.event.Event(Constants.CLICK_PLAY)
+            pygame.event.post(click_event)

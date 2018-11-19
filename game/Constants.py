@@ -26,7 +26,6 @@ BUTTON_HEIGHT = PILLAR_HEIGHT
 BUTTON_X_START = SCREEN_WIDTH/2 - PILLAR_WIDTH/2
 BUTTON_Y_START = SCREEN_HEIGHT/2 - PILLAR_HEIGHT/2
 
-
 # File paths
 PLAY_MUSIC_PATH = '../resources/Platformer2.mp3'
 MENU_MUSIC_PATH = '../resources/bensound-thelounge.mp3'
@@ -36,11 +35,13 @@ MENU_MUSIC_PATH = '../resources/bensound-thelounge.mp3'
 PLAY_STATE = "PLAY"
 MENU_STATE = "MENU"
 WATCH_STATE = "WATCH"
+QUIT_STATE = "QUIT"
 
 # Events
 MUSIC_STOPPED = pygame.constants.USEREVENT
 HIT_PILLAR = pygame.constants.USEREVENT+1
 GENERATE_PILLAR = pygame.constants.USEREVENT+2
+CLICK_PLAY = pygame.constants.USEREVENT+3
 
 # Licenses
 # Music: https://www.bensound.com

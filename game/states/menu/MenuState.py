@@ -8,11 +8,13 @@ def runMenuState(screen):
     clock = createLoopUtilities()
 
     # Menu State Main Loop
+    out_state = Constants.QUIT_STATE
     done = False
     while (done == False):
         for event in pygame.event.get():
-            done = handleEvents(event, done)
+            done, out_state = handleEvents(event, done, out_state)
 
+        asset_group.update()
         render(screen, clock, asset_group)
 
-    return Constants.MENU_STATE
+    return out_state

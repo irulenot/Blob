@@ -62,9 +62,11 @@ def playerMovementEvents(event, player):
 
 # Handles exit button and loops music when finished
 # Handles pillar hit and pillar generation
-def handleEvents(event, level_and_pillar, done):
+def handleEvents(event, level_and_pillar, done, out_state):
     if (event.type == Constants.HIT_PILLAR):
+        out_state = Constants.MENU_STATE
         done = True
+
     if (event.type == Constants.GENERATE_PILLAR):
         level_and_pillar.generatePillar()
 
@@ -73,7 +75,8 @@ def handleEvents(event, level_and_pillar, done):
 
     if (event.type == pygame.QUIT):
         done = True
-    return done
+
+    return done, out_state
 
 
 # Updates player and pillars
