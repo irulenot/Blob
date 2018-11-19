@@ -38,3 +38,12 @@ class Pillar(pygame.sprite.Sprite):
         # Deletes pillars after they leave window
         if cur_pos <= -Constants.PILLAR_WIDTH:
             self.kill()
+
+        self.writeData()
+
+
+    def writeData(self):
+        f = open(Constants.PILLAR_DATA_PATH, "a")
+        f.write(str(self.__dict__))
+        f.write('\n')
+        print(self.__dict__)

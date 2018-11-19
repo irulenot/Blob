@@ -5,6 +5,13 @@ from states.play.LevelAndPillar import LevelAndPillar
 from states.play.Player import Player
 
 
+def logNewGame():
+    p = open(Constants.PILLAR_DATA_PATH, "a")
+    p.write('\nNEWGAME\n')
+    f = open(Constants.EVENT_DATA_PATH, "a")
+    f.write('\nNEWGAME\n')
+
+
 # Creates player and pillar assets
 def prepareAssets():
     player = Player()
@@ -34,6 +41,13 @@ def createLoopUtilities():
     clock = pygame.time.Clock()
     pygame.time.set_timer(Constants.GENERATE_PILLAR, Constants.GENERATE_PILLAR_FREQUENCY)
     return clock
+
+
+def logEvents(event):
+    f = open(Constants.EVENT_DATA_PATH, "a")
+    f.write(str(event))
+    f.write('\n')
+
 
 # Handles player movement
 def playerMovementEvents(event, player):

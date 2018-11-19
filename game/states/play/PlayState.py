@@ -4,6 +4,8 @@ from states.play.PlayStateHelper import *
 def runPlayState(screen):
 
     # Play State Initalization
+    print("RAN")
+    logNewGame()
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)
     player_group = createPlayerGroup(player)
@@ -14,6 +16,7 @@ def runPlayState(screen):
     done = False
     while (done == False):
         for event in pygame.event.get():
+            logEvents(event)
             playerMovementEvents(event, player)
             done, out_state = handleEvents(event, level_and_pillar, done, out_state)
 
