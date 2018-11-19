@@ -3,6 +3,7 @@ import pygame
 from game.states.menu.Button import Button
 
 
+# Creates button asset and assigns it to a group
 def loadAssets():
     button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
                     Constants.BUTTON_X_START, Constants.BUTTON_Y_START)
@@ -11,26 +12,19 @@ def loadAssets():
     return asset_group
 
 
+# Starts music loop and initalizes clock
 def createLoopUtilities():
-    playMusic(True)
+    pygame.mixer.music.load(Constants.MENU_MUSIC_PATH)
+    pygame.mixer.music.play(-1)
+
     clock = pygame.time.Clock()
-    pygame.time.set_timer(Constants.GENERATE_PILLAR, Constants.GENERATE_PILLAR_FREQUENCY)
     return clock
 
 
-def playMusic(firstTimePlaying):
-    pygame.mixer.music.load(Constants.MENU_MUSIC_PATH)
-    if (firstTimePlaying == False):
-        pygame.mixer.music.set_endevent(Constants.MUSIC_STOPPED)
-    pygame.mixer.music.play()
-
-
+# Listens for pygame events, such as exit and clicking on button
 def handleEvents(event, done, out_state):
     if (event.type == pygame.QUIT):
         done = True
-
-    if (event.type == Constants.MUSIC_STOPPED):
-        playMusic(False)
 
     if (event.type == Constants.CLICK_PLAY):
         done = True
@@ -39,6 +33,7 @@ def handleEvents(event, done, out_state):
     return done, out_state
 
 
+# Draws everything on screen such a background, assets, and words. In 60fps
 def render(screen, clock, asset_group):
     screen.fill(Constants.BLUE)
 

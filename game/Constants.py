@@ -38,10 +38,9 @@ WATCH_STATE = "WATCH"
 QUIT_STATE = "QUIT"
 
 # Events
-MUSIC_STOPPED = pygame.constants.USEREVENT
 HIT_PILLAR = pygame.constants.USEREVENT+1
 GENERATE_PILLAR = pygame.constants.USEREVENT+2
 CLICK_PLAY = pygame.constants.USEREVENT+3
 
 # Licenses
-# Music: https://www.bensound.com
+# Music: bensound-thelounge.mp3: https://www.bensound.com

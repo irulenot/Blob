@@ -5,8 +5,6 @@ from states.play.LevelAndPillar import LevelAndPillar
 from states.play.Player import Player
 
 
-""" HELPER FUNCTIONS FOR PLAY STATE """
-
 # Creates player and pillar assets
 def prepareAssets():
     player = Player()
@@ -30,19 +28,12 @@ def createPlayerGroup(player):
 
 # Starts game music, creates the clock, and creates pillar generation timer
 def createLoopUtilities():
-    playMusic(True)
+    pygame.mixer.music.load(Constants.PLAY_MUSIC_PATH)
+    pygame.mixer.music.play(-1)
+
     clock = pygame.time.Clock()
     pygame.time.set_timer(Constants.GENERATE_PILLAR, Constants.GENERATE_PILLAR_FREQUENCY)
     return clock
-
-
-# Plays music and restarts music loop
-def playMusic(firstTimePlaying):
-    pygame.mixer.music.load(Constants.PLAY_MUSIC_PATH)
-    if (firstTimePlaying == False):
-        pygame.mixer.music.set_endevent(Constants.MUSIC_STOPPED)
-    pygame.mixer.music.play()
-
 
 # Handles player movement
 def playerMovementEvents(event, player):
@@ -69,9 +60,6 @@ def handleEvents(event, level_and_pillar, done, out_state):
 
     if (event.type == Constants.GENERATE_PILLAR):
         level_and_pillar.generatePillar()
-
-    if (event.type == Constants.MUSIC_STOPPED):
-        playMusic(False)
 
     if (event.type == pygame.QUIT):
         done = True
