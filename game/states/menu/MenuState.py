@@ -1,14 +1,18 @@
+from game.states.menu.MenuStateHelper import *
 import pygame
 import Constants
 
 def runMenuState(screen):
 
+    asset_group = loadAssets()
+    clock = createLoopUtilities()
+
     # Menu State Main Loop
     done = False
     while (done == False):
         for event in pygame.event.get():
-            print("Menu events ran")
+            done = handleEvents(event, done)
 
-        done = True
+        render(screen, clock, asset_group)
 
     return Constants.MENU_STATE

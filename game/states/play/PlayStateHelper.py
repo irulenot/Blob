@@ -38,9 +38,9 @@ def createLoopUtilities():
 
 # Plays music and restarts music loop
 def playMusic(firstTimePlaying):
-    pygame.mixer.music.load(Constants.MUSIC_PATH)
+    pygame.mixer.music.load(Constants.PLAY_MUSIC_PATH)
     if (firstTimePlaying == False):
-        pygame.mixer.music.set_endevent(pygame.constants.USEREVENT)
+        pygame.mixer.music.set_endevent(Constants.MUSIC_STOPPED)
     pygame.mixer.music.play()
 
 

@@ -20,8 +20,17 @@ PILLAR_X_START = SCREEN_WIDTH
 PILLAR_Y_START = SCREEN_HEIGHT - PILLAR_HEIGHT
 GENERATE_PILLAR_FREQUENCY = 2 * 1000                # 1 Pillar every 2 seconds
 
+# Button properties
+BUTTON_WIDTH = PILLAR_WIDTH
+BUTTON_HEIGHT = PILLAR_HEIGHT
+BUTTON_X_START = SCREEN_WIDTH/2 - PILLAR_WIDTH/2
+BUTTON_Y_START = SCREEN_HEIGHT/2 - PILLAR_HEIGHT/2
+
+
 # File paths
-MUSIC_PATH = '../resources/Platformer2.mp3'
+PLAY_MUSIC_PATH = '../resources/Platformer2.mp3'
+MENU_MUSIC_PATH = '../resources/bensound-thelounge.mp3'
+
 
 # States
 PLAY_STATE = "PLAY"
@@ -32,3 +41,6 @@ WATCH_STATE = "WATCH"
 MUSIC_STOPPED = pygame.constants.USEREVENT
 HIT_PILLAR = pygame.constants.USEREVENT+1
 GENERATE_PILLAR = pygame.constants.USEREVENT+2
+
+# Licenses
+# Music: https://www.bensound.com
