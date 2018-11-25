@@ -18,9 +18,9 @@ while (done == False):
     if (current_state == Constants.PLAY_STATE):
         current_state = runPlayState(screen)
 
-    done = True
-    #
-    # if (current_state == Constants.QUIT_STATE):
-    #     done = True
+
+
+    if (current_state == Constants.QUIT_STATE):
+        done = True
 
 pygame.quit()

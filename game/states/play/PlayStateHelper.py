@@ -75,6 +75,11 @@ def handleEvents(event, level_and_pillar, done, out_state):
     if (event.type == Constants.GENERATE_PILLAR):
         level_and_pillar.generatePillar()
 
+    if event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_ESCAPE:
+            out_state = Constants.MENU_STATE
+            done = True
+
     if (event.type == pygame.QUIT):
         done = True
 

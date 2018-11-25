@@ -46,4 +46,4 @@ class Pillar(pygame.sprite.Sprite):
         f = open(Constants.PILLAR_DATA_PATH, "a")
         f.write(str(self.__dict__))
         f.write('\n')
-        print(self.__dict__)
+        # print(self.__dict__)

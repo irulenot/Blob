@@ -1,6 +1,6 @@
 import Constants
 import pygame
-from game.states.menu.Button import Button
+from states.menu.Button import Button
 
 
 # Creates button asset and assigns it to a group
@@ -30,12 +30,18 @@ def createLoopUtilities():
 
 # Listens for pygame events, such as exit and clicking on button
 def handleEvents(event, done, out_state):
-    if (event.type == pygame.QUIT):
-        done = True
 
     if (event.type == Constants.CLICK_PLAY):
         done = True
         out_state = Constants.PLAY_STATE
+
+    # Quit conditions
+    if (event.type == pygame.QUIT):
+        done = True
+
+    if event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_ESCAPE:
+            done = True
 
     return done, out_state
 

@@ -1,0 +1,280 @@
+
+NEWGAME
+<Event(27-UserEvent {})>
+<Event(6-MouseButtonUp {'pos': (682, 345), 'button': 1})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(4-MouseMotion {'pos': (680, 337), 'rel': (-2, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (674, 330), 'rel': (-6, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (668, 327), 'rel': (-6, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (652, 321), 'rel': (-16, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (612, 309), 'rel': (-40, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (589, 303), 'rel': (-23, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (571, 297), 'rel': (-18, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (558, 293), 'rel': (-13, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (551, 291), 'rel': (-7, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (547, 289), 'rel': (-4, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (546, 288), 'rel': (-1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (541, 288), 'rel': (-5, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (528, 285), 'rel': (-13, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (512, 281), 'rel': (-16, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (504, 279), 'rel': (-8, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (493, 276), 'rel': (-11, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (451, 266), 'rel': (-42, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (414, 261), 'rel': (-37, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (386, 257), 'rel': (-28, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (371, 255), 'rel': (-15, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (366, 253), 'rel': (-5, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (365, 251), 'rel': (-1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (362, 248), 'rel': (-3, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (336, 234), 'rel': (-26, -14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (276, 201), 'rel': (-60, -33), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (158, 136), 'rel': (-118, -65), 'buttons': (0, 0, 0)})>
+<Event(25-UserEvent {})>
+<Event(4-MouseMotion {'pos': (97, 107), 'rel': (-61, -29), 'buttons': (0, 0, 0)})>
+
+NEWGAME
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>
+
+NEWGAME
+<Event(4-MouseMotion {'pos': (673, 339), 'rel': (1, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (674, 331), 'rel': (1, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (672, 329), 'rel': (-2, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (670, 330), 'rel': (-2, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (668, 331), 'rel': (-2, 1), 'buttons': (0, 0, 0)})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>
+
+NEWGAME
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>
+
+NEWGAME
+<Event(5-MouseButtonDown {'pos': (659, 325), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (659, 325), 'button': 1})>
+<Event(4-MouseMotion {'pos': (659, 324), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>
+
+NEWGAME
+<Event(4-MouseMotion {'pos': (675, 341), 'rel': (0, 5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (672, 364), 'rel': (-3, 23), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (669, 388), 'rel': (-3, 24), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (664, 429), 'rel': (-5, 41), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (662, 475), 'rel': (-2, 46), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (662, 489), 'rel': (0, 14), 'buttons': (0, 0, 0)})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>
+<Event(3-KeyUp {'key': 27, 'mod': 0, 'scancode': 53})>
+
+NEWGAME
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(25-UserEvent {})>
+
+NEWGAME
+<Event(27-UserEvent {})>
+<Event(6-MouseButtonUp {'pos': (677, 353), 'button': 1})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>
+
+NEWGAME
+<Event(27-UserEvent {})>
+<Event(6-MouseButtonUp {'pos': (665, 366), 'button': 1})>
+<Event(4-MouseMotion {'pos': (664, 366), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (665, 366), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (665, 365), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (664, 365), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\x1b', 'key': 27, 'mod': 0, 'scancode': 53})>

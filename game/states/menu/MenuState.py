@@ -1,4 +1,4 @@
-from game.states.menu.MenuStateHelper import *
+from states.menu.MenuStateHelper import *
 import pygame
 import Constants
 

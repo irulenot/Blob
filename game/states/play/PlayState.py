@@ -4,7 +4,6 @@ from states.play.PlayStateHelper import *
 def runPlayState(screen):
 
     # Play State Initalization
-    print("RAN")
     logNewGame()
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)
