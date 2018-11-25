@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99432f20-da4f-401c-9e67-a8cbf4bacffe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ai/play_data/pillar-data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/event_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/event_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pillar_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/pillar_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Blob.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Blob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/event_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/event_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ai/play_data/event-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pillar_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pillar_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ai/play_data/event-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/play/Pillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/Pillar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/states/play/PlayState.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/PlayState.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/states/play/PlayStateHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+            <state relative-caret-position="1425">
+              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -32,14 +39,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/event_log.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/states/play/Pillar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="575">
               <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -48,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game/states/play/PlayState.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
+            <state>
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -60,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/Constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="46" column="10" selection-start-line="46" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="380">
+              <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
               <folding>
                 <element signature="e#20#33#0" expanded="true" />
               </folding>
@@ -70,27 +72,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/event_data.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/pillar_data.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/pillar_log.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/menu/MenuState.py">
+        <entry file="file://$PROJECT_DIR$/ai/play_data/event-data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="-273">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai/data_helpers/playDataHelper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai/play_data/pillar-data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1543" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai/play_data/pillar-log.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai/play_data/event-log.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -172,15 +188,18 @@
         <option value="$PROJECT_DIR$/game/states/menu/MenuState.py" />
         <option value="$PROJECT_DIR$/game/Initalization.py" />
         <option value="$PROJECT_DIR$/game/Blob.py" />
-        <option value="$PROJECT_DIR$/game/states/play/PlayState.py" />
         <option value="$PROJECT_DIR$/game/states/menu/MenuStateHelper.py" />
-        <option value="$PROJECT_DIR$/game/Constants.py" />
         <option value="$PROJECT_DIR$/game/states/play/Pillar.py" />
-        <option value="$PROJECT_DIR$/data/pillar_data.txt" />
         <option value="$PROJECT_DIR$/data/pillar_log.txt" />
         <option value="$PROJECT_DIR$/game/Logs.py" />
+        <option value="$PROJECT_DIR$/data/pillar_data.txt" />
         <option value="$PROJECT_DIR$/data/event_data.txt" />
+        <option value="$PROJECT_DIR$/testing/test.py" />
+        <option value="$PROJECT_DIR$/game/Constants.py" />
+        <option value="$PROJECT_DIR$/ai/helpers/playDataHelper.py" />
         <option value="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" />
+        <option value="$PROJECT_DIR$/ai/data_helpers/playDataHelper.py" />
+        <option value="$PROJECT_DIR$/game/states/play/PlayState.py" />
       </list>
     </option>
   </component>
@@ -221,12 +240,37 @@
             <path>
               <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blob" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blob" type="462c0819:PsiDirectoryNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="data_helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blob" type="462c0819:PsiDirectoryNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="play_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blob" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blob" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blob" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,12 +284,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/game" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ai" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/game/states/play" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="267" column="48" selection-start-line="267" selection-start-column="48" selection-end-line="267" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/play/LevelAndPillar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -479,6 +517,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/game/Logs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/menu/MenuState.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -486,16 +527,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/states/play/PlayState.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/play/Pillar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="575">
           <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -503,38 +537,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/play_data/pillar_log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" column="10" selection-start-line="46" selection-end-line="46" selection-end-column="15" />
+        <state relative-caret-position="380">
+          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
           <folding>
             <element signature="e#20#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/Logs.py">
+    <entry file="file://$PROJECT_DIR$/ai/play_data/pillar-data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1543" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/play_data/pillar-log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/pillar_log.txt">
+    <entry file="file://$PROJECT_DIR$/ai/play_data/event-log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/pillar_data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ai/play_data/event-data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/event_data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/event_log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ai/data_helpers/playDataHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/states/play/PlayStateHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+        <state relative-caret-position="1425">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/states/play/PlayState.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>

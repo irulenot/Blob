@@ -1,10 +1,11 @@
+from ai.data_helpers.playDataHelper import *
 from states.play.PlayStateHelper import *
 
 
 def runPlayState(screen):
 
     # Play State Initalization
-    logNewGame()
+    logGameTime()
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)
     player_group = createPlayerGroup(player)
@@ -23,6 +24,6 @@ def runPlayState(screen):
         playerBorders(player)
         render(level_and_pillar, player_group, clock, screen)
 
+    # Logs play play_data and new game state
     manageLogs(out_state)
-
     return out_state
