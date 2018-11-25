@@ -18,8 +18,6 @@ while (done == False):
     if (current_state == Constants.PLAY_STATE):
         current_state = runPlayState(screen)
 
-
-
     if (current_state == Constants.QUIT_STATE):
         done = True
 

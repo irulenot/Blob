@@ -23,4 +23,6 @@ def runPlayState(screen):
         playerBorders(player)
         render(level_and_pillar, player_group, clock, screen)
 
+    manageLogs(out_state)
+
     return out_state

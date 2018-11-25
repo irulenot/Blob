@@ -6,9 +6,9 @@ from states.play.Player import Player
 
 
 def logNewGame():
-    p = open(Constants.PILLAR_DATA_PATH, "a")
+    p = open(Constants.PILLAR_LOG_PATH, "a")
     p.write('\nNEWGAME\n')
-    f = open(Constants.EVENT_DATA_PATH, "a")
+    f = open(Constants.EVENT_LOG_PATH, "a")
     f.write('\nNEWGAME\n')
 
 
@@ -44,7 +44,7 @@ def createLoopUtilities():
 
 
 def logEvents(event):
-    f = open(Constants.EVENT_DATA_PATH, "a")
+    f = open(Constants.EVENT_LOG_PATH, "a")
     f.write(str(event))
     f.write('\n')
 
@@ -75,9 +75,9 @@ def handleEvents(event, level_and_pillar, done, out_state):
     if (event.type == Constants.GENERATE_PILLAR):
         level_and_pillar.generatePillar()
 
+    # Quit conditions
     if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_ESCAPE:
-            out_state = Constants.MENU_STATE
             done = True
 
     if (event.type == pygame.QUIT):
@@ -107,3 +107,19 @@ def render(level_and_pillar, player_group, clock, screen):
 
     clock.tick(60)
     pygame.display.flip()
+
+
+# Writes to data files if data is valid
+def manageLogs(out_state):
+
+    if(out_state == Constants.MENU_STATE):
+        event_log = open(Constants.EVENT_LOG_PATH, "r")
+        event_data = open(Constants.EVENT_DATA_PATH, "a")
+        event_data.write(event_log.read())
+
+        pillar_log = open(Constants.PILLAR_LOG_PATH, "r")
+        pillar_data = open(Constants.PILLAR_DATA_PATH, "a")
+        pillar_data.write(pillar_log.read())
+
+    open(Constants.EVENT_LOG_PATH, 'w').close()
+    open(Constants.PILLAR_LOG_PATH, 'w').close()

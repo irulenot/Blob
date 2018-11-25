@@ -43,7 +43,7 @@ class Pillar(pygame.sprite.Sprite):
 
 
     def writeData(self):
-        f = open(Constants.PILLAR_DATA_PATH, "a")
+        f = open(Constants.PILLAR_LOG_PATH, "a")
         f.write(str(self.__dict__))
         f.write('\n')
         # print(self.__dict__)
