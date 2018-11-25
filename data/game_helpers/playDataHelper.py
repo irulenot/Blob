@@ -11,6 +11,16 @@ def logGameTime():
     f.write( str(datetime.datetime.now()) + '\n')
 
 
+def logPillarData(self):
+    f = open(Constants.PILLAR_LOG_PATH, "a")
+    f.write(str(self.__dict__['image']) + ',')
+    f.write(str(self.__dict__['rect']) + ',')
+    f.write(str(self.__dict__['boundary_left']) + ',')
+    f.write(str(self.__dict__['boundary_right']) + ',')
+    f.write(str(self.__dict__['change_x']))
+    f.write('\n')
+
+
 # Logs game events
 def logEvents(event):
     f = open(Constants.EVENT_LOG_PATH, "a")

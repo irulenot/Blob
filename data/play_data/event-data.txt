@@ -1,0 +1,47 @@
+2018-11-25 15:08:22.403430
+<Event(27-UserEvent {})>
+<Event(6-MouseButtonUp {'pos': (667, 363), 'button': 1})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf702', 'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(3-KeyUp {'key': 276, 'mod': 0, 'scancode': 123})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf703', 'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(3-KeyUp {'key': 275, 'mod': 0, 'scancode': 124})>
+<Event(26-UserEvent {'code': 0})>
+<Event(25-UserEvent {})>
+2018-11-25 15:08:27.365639
+2018-11-25 15:08:28.101215
+<Event(27-UserEvent {})>
+<Event(6-MouseButtonUp {'pos': (657, 345), 'button': 1})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(25-UserEvent {})>
+2018-11-25 15:08:33.299976
+2018-11-25 15:27:05.641179
+<Event(27-UserEvent {})>
+<Event(6-MouseButtonUp {'pos': (668, 335), 'button': 1})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(26-UserEvent {'code': 0})>
+<Event(2-KeyDown {'unicode': '\uf700', 'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(3-KeyUp {'key': 273, 'mod': 0, 'scancode': 126})>
+<Event(25-UserEvent {})>
+2018-11-25 15:27:11.119539

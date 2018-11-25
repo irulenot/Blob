@@ -10,3 +10,6 @@ Design
 
   3) You watch a ML model jump over ledges based on your performance  
     a) Probably with scikit-learn
+
+AI Functionality
+    -AI will generate commands and give them to pygame to perform

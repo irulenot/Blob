@@ -41,10 +41,10 @@ game_directory = game_path.split("Blob",1)[0]
 PLAY_MUSIC_PATH = game_directory + 'Blob/resources/Platformer2.mp3'
 MENU_MUSIC_PATH = game_directory + 'Blob/resources/bensound-thelounge.mp3'
 
-PILLAR_LOG_PATH = game_directory + 'Blob/ai/play_data/pillar-log.txt'
-PILLAR_DATA_PATH = game_directory + 'Blob/ai/play_data/pillar-data.txt'
-EVENT_LOG_PATH = game_directory + 'Blob/ai/play_data/event-log.txt'
-EVENT_DATA_PATH = game_directory + 'Blob/ai/play_data/event-data.txt'
+PILLAR_LOG_PATH = game_directory + 'Blob/data/play_data/pillar-log.txt'
+PILLAR_DATA_PATH = game_directory + 'Blob/data/play_data/pillar-data.txt'
+EVENT_LOG_PATH = game_directory + 'Blob/data/play_data/event-log.txt'
+EVENT_DATA_PATH = game_directory + 'Blob/data/play_data/event-data.txt'
 
 
 # States
@@ -58,6 +58,7 @@ QUIT_STATE = "QUIT"
 HIT_PILLAR = pygame.constants.USEREVENT+1
 GENERATE_PILLAR = pygame.constants.USEREVENT+2
 CLICK_PLAY = pygame.constants.USEREVENT+3
+CLICK_WATCH = pygame.constants.USEREVENT+4
 
 # Licenses
 # Music: bensound-thelounge.mp3: https://www.bensound.com

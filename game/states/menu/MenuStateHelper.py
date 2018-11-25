@@ -11,7 +11,7 @@ def loadAssets():
 
     watch_button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
                     Constants.BUTTON_X_START - Constants.BUTTON_WIDTH*2,
-                    Constants.BUTTON_Y_START, Constants.CLICK_PLAY)
+                    Constants.BUTTON_Y_START, Constants.CLICK_WATCH)
 
     asset_group = pygame.sprite.Group()
     asset_group.add(play_button)
@@ -34,6 +34,10 @@ def handleEvents(event, done, out_state):
     if (event.type == Constants.CLICK_PLAY):
         done = True
         out_state = Constants.PLAY_STATE
+
+    if (event.type == Constants.CLICK_WATCH):
+        done = True
+        out_state = Constants.WATCH_STATE
 
     # Quit conditions
     if (event.type == pygame.QUIT):

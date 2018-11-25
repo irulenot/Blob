@@ -1,22 +1,21 @@
-from data.game_helpers.playDataHelper import *
-from states.play.PlayStateHelper import *
+from states.watch.WatchStateHelper import *
 
 
-def runPlayState(screen):
+def runWatchState(screen):
 
     # Play State Initalization
-    logGameTime()
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)
     player_group = createPlayerGroup(player)
     clock = createLoopUtilities()
 
     # Play State Main Loop
-    out_state = Constants.QUIT_STATE
+    out_state = Constants.MENU_STATE
     done = False
     while (done == False):
+
+
         for event in pygame.event.get():
-            logEvents(event)
             playerMovementEvents(event, player)
             done, out_state = handleEvents(event, level_and_pillar, done, out_state)
 
@@ -24,6 +23,4 @@ def runPlayState(screen):
         playerBorders(player)
         render(level_and_pillar, player_group, clock, screen)
 
-    # Logs play play_data and new game state
-    manageLogs(out_state)
     return out_state
