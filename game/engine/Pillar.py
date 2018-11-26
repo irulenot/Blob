@@ -1,7 +1,7 @@
 import pygame
 import Constants
 
-from states.play.playStateLogger import logPillarData
+from Logger import logPillarData
 
 class Pillar(pygame.sprite.Sprite):
     change_x = 0

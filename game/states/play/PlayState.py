@@ -1,11 +1,10 @@
-from states.play.playStateLogger import *
+from Logger import *
 from states.play.PlayStateHelper import *
 
 
 def runPlayState(screen):
 
     # Play State Initalization
-    logGameTime()
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)
     player_group = createPlayerGroup(player)

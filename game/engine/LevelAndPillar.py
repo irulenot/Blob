@@ -13,7 +13,7 @@ class LevelAndPillar(Level):
         Level.__init__(self, player)
 
 
-    # Creates 2 pillars
+    # Creates pillars
     def generatePillar(self):
 
         pillar = Pillar(Constants.PILLAR_WIDTH, Constants.PILLAR_HEIGHT)

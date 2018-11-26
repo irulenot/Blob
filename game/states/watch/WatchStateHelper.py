@@ -26,7 +26,7 @@ def createPlayerGroup(player):
     return player_group
 
 
-# Starts game music, creates the clock, and creates pillar generation timer
+# Creates new log, starts game music, creates the clock, and creates pillar generation timer
 def createLoopUtilities():
     pygame.mixer.music.load(Constants.WATCH_MUSIC_PATH)
     pygame.mixer.music.play(-1)
