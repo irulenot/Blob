@@ -1,5 +1,6 @@
 import pygame
 import Constants
+import Logger
 
 from engine.LevelAndPillar import LevelAndPillar
 from engine.Player import Player
@@ -37,7 +38,7 @@ def createLoopUtilities():
 
 
 # Handles player movement
-def playerMovementEvents(event, player, ai_action):
+def playerMovementEvents(player, ai_action):
     if (ai_action['event'] == pygame.KEYDOWN):
         # if (ai_action['key'] == pygame.K_LEFT):
         #     player.go_left()

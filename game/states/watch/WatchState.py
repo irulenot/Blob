@@ -15,11 +15,11 @@ def runWatchState(screen):
     done = False
     while (done == False):
 
-        for event in pygame.event.get():
-            ai_action = ai.sendAction(event)
-            if (ai_action != None):
-                playerMovementEvents(event, player, ai_action)
+        ai_action = ai.think_cycle()
+        if (ai_action != None):
+            playerMovementEvents(player, ai_action)
 
+        for event in pygame.event.get():
             done, out_state = handleEvents(event, level_and_pillar, done, out_state)
 
         updateAssets(player_group, level_and_pillar)

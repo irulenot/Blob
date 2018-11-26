@@ -24,5 +24,5 @@ def runPlayState(screen):
         render(level_and_pillar, player_group, clock, screen)
 
     # Logs play play_data and new game state
-    manageLogs(out_state)
+    finishLog(out_state)
     return out_state
