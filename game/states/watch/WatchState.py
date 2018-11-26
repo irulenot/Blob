@@ -1,6 +1,5 @@
-import ai.PlayBlob as ai
-
 import Logger
+import ai.PlayBlob as ai
 from states.watch.WatchStateHelper import *
 
 
