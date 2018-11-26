@@ -3,7 +3,7 @@ import pandas as pd
 
 def getTrainingDataframe():
     data = pd.read_csv(Constants.PLAY_DATA_PATH, sep="\n", header=None)
-    parsed_data = data[data[:].str.contains("KeyDown")]
-    print(parsed_data)
+    jump_data = data[data[0].str.contains("KeyDown")]
+    print(data[0][jump_data.index-1])
 
 getTrainingDataframe()
