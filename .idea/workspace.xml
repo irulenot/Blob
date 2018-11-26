@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99432f20-da4f-401c-9e67-a8cbf4bacffe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai/CreateTrainingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/CreateTrainingData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/PlayBlob.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/PlayBlob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/play_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/play_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Blob.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Blob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Initalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Initalization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/engine/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/LevelAndPillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/engine/LevelAndPillar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/Pillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/engine/Pillar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/engine/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/menu/Button.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/menu/Button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/menu/MenuState.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/menu/MenuState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/menu/MenuStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/menu/MenuStateHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/play/PlayState.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/PlayState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/watch/WatchState.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/watch/WatchState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/watch/WatchStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/watch/WatchStateHelper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +19,15 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ai/PlayBlob.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/game/Blob.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
@@ -43,15 +35,6 @@
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/game/engine/Level.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -101,11 +84,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ai/CreateTrainingData.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#16#0" expanded="true" />
                   </folding>
@@ -125,11 +108,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/game/states/watch/WatchState.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#6#0" expanded="true" />
                   </folding>
@@ -254,8 +237,8 @@
         <option value="$PROJECT_DIR$/game/engine/Pillar.py" />
         <option value="$PROJECT_DIR$/game/engine/Player.py" />
         <option value="$PROJECT_DIR$/game/Logger.py" />
-        <option value="$PROJECT_DIR$/ai/CreateTrainingData.py" />
         <option value="$PROJECT_DIR$/game/states/watch/WatchState.py" />
+        <option value="$PROJECT_DIR$/ai/CreateTrainingData.py" />
       </list>
     </option>
   </component>
@@ -380,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Blob">
+  <component name="RunManager" selected="Python.CreateTrainingData">
     <configuration name="Blob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blob" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -473,8 +456,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Blob" />
         <item itemvalue="Python.CreateTrainingData" />
+        <item itemvalue="Python.Blob" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.test" />
       </list>
@@ -642,9 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai/PlayBlob.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/engine/Level.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -677,16 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="222" column="16" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/CreateTrainingData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,12 +694,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ai/PlayBlob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/watch/WatchState.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        <state relative-caret-position="375">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/CreateTrainingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
