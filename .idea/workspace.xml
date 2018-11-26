@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99432f20-da4f-401c-9e67-a8cbf4bacffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/play_data/event-data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/play_data/pillar-data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/data_helpers/playDataHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/game_helpers/playDataHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/play_data/event-data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/play_data/event-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/play_data/event-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/play_data/pillar-data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/play_data/pillar-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/play_data/pillar-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Blob.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Blob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/playBlob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/game_helpers/playDataHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/playStateLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/play_data/event-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/play_data/event-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/play_data/pillar-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/play_data/pillar-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/play_data/pillar-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/play_data/pillar-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/Constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/states/menu/MenuStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/menu/MenuStateHelper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/states/play/Pillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/Pillar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/states/play/PlayState.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/play/PlayState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pm/specificaions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pm/specifications.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/states/watch/LevelAndPillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/watch/LevelAndPillar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/states/watch/Pillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/watch/Pillar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/states/watch/WatchState.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/watch/WatchState.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/states/watch/WatchStateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/states/watch/WatchStateHelper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,118 +23,137 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/Blob.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/play/PlayStateHelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/watch/Level.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/menu/MenuState.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/menu/MenuStateHelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/watch/WatchState.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game/states/watch/WatchStateHelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/play/PlayState.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/Constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#20#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/states/menu/Button.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/states/watch/WatchState.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ai/PlayBlob.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ai/CreateTrainingData.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+                  <folding>
+                    <element signature="e#0#6#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/states/play/playStateLogger.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#0#16#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/states/watch/WatchStateHelper.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="236">
+                  <caret line="39" column="38" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/states/watch/Player.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="552">
+                  <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/states/watch/Pillar.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/states/watch/LevelAndPillar.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="16" selection-start-column="16" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/game/states/watch/Level.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/play_data/event-data.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-90" />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/data/play_data/event-data.txt">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/play_data/pillar-data.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-6798" />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,13 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/game/Level_02.py" />
-        <option value="$PROJECT_DIR$/game/Level_01.py" />
-        <option value="$PROJECT_DIR$/game/LevelGeneratorConstants.py" />
-        <option value="$PROJECT_DIR$/game/constants.py" />
-        <option value="$PROJECT_DIR$/game/app.py" />
-        <option value="$PROJECT_DIR$/testing/background_sound.py" />
-        <option value="$PROJECT_DIR$/game/PlayGame.py" />
         <option value="$PROJECT_DIR$/pm/todo.txt" />
         <option value="$PROJECT_DIR$/pm/specificaions.txt" />
         <option value="$PROJECT_DIR$/game/RunPlayState.py" />
@@ -218,21 +229,28 @@
         <option value="$PROJECT_DIR$/data/event_data.txt" />
         <option value="$PROJECT_DIR$/testing/test.py" />
         <option value="$PROJECT_DIR$/ai/helpers/playDataHelper.py" />
-        <option value="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" />
         <option value="$PROJECT_DIR$/game/states/play/Pillar.py" />
         <option value="$PROJECT_DIR$/ai/data_helpers/playDataHelper.py" />
         <option value="$PROJECT_DIR$/ai/play_data/pillar-data.txt" />
         <option value="$PROJECT_DIR$/ai/play_data/event-data.txt" />
         <option value="$PROJECT_DIR$/ai/training.py" />
-        <option value="$PROJECT_DIR$/ai/CreateTrainingData.py" />
-        <option value="$PROJECT_DIR$/ai/playBlob.py" />
         <option value="$PROJECT_DIR$/game/states/watch/runWatchState.py" />
         <option value="$PROJECT_DIR$/game/states/play/PlayState.py" />
         <option value="$PROJECT_DIR$/game/Blob.py" />
         <option value="$PROJECT_DIR$/pm/specifications.txt" />
-        <option value="$PROJECT_DIR$/game/Constants.py" />
         <option value="$PROJECT_DIR$/game/states/menu/MenuStateHelper.py" />
+        <option value="$PROJECT_DIR$/game/states/watch/Pillar.py" />
+        <option value="$PROJECT_DIR$/game/states/watch/LevelAndPillar.py" />
+        <option value="$PROJECT_DIR$/game/Constants.py" />
+        <option value="$PROJECT_DIR$/ai/sendEvent.py" />
+        <option value="$PROJECT_DIR$/game/states/play/PlayStateHelper.py" />
+        <option value="$PROJECT_DIR$/ai/playBlob.py" />
+        <option value="$PROJECT_DIR$/game/states/watch/WatchStateHelper.py" />
         <option value="$PROJECT_DIR$/game/states/watch/WatchState.py" />
+        <option value="$PROJECT_DIR$/ai/CreateTrainingData.py" />
+        <option value="$PROJECT_DIR$/game/states/play/playStateLogger.py" />
+        <option value="$PROJECT_DIR$/data/play_data/event-data.txt" />
+        <option value="$PROJECT_DIR$/data/play_data/pillar-data.txt" />
       </list>
     </option>
   </component>
@@ -283,6 +301,12 @@
             <path>
               <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blob" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="play_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blob" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,13 +314,6 @@
               <item name="Blob" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="states" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blob" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
@@ -317,6 +334,11 @@
               <item name="Blob" type="462c0819:PsiDirectoryNode" />
               <item name="pm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Blob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blob" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -330,9 +352,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game/states/play" />
+      <recent name="$PROJECT_DIR$/states/play" />
       <recent name="$PROJECT_DIR$/ai" />
       <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/game/states/play" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/game/states/watch" />
@@ -365,6 +388,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/Blob.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateTrainingData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blob" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai/CreateTrainingData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,10 +463,12 @@
       <item itemvalue="Python.Blob" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.training" />
+      <item itemvalue="Python.CreateTrainingData" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Blob" />
+        <item itemvalue="Python.CreateTrainingData" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.test" />
       </list>
@@ -507,8 +553,8 @@
     <entry file="file://$PROJECT_DIR$/test/testHelper.py" />
     <entry file="file://$PROJECT_DIR$/game/states/play/Level.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -517,24 +563,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/states/play/LevelAndPillar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/states/play/Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py" />
     <entry file="file://$PROJECT_DIR$/game/Initalization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -545,15 +579,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/Logs.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/game/Logs.py" />
     <entry file="file://$PROJECT_DIR$/testing/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai/play_data/pillar_log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/play_data/pillar_log.txt" />
     <entry file="file://$PROJECT_DIR$/game/states/play/Pillar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -570,52 +600,13 @@
     <entry file="file://$PROJECT_DIR$/data/play_data/event-log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/play_data/pillar-data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="130" column="59" selection-start-line="130" selection-start-column="59" selection-end-line="130" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/game_helpers/playDataHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/play_data/event-data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/training.py" />
     <entry file="file://$PROJECT_DIR$/pm/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/CreateTrainingData.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/playBlob.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pm/specifications.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,16 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/Blob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/menu/MenuState.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -654,20 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/Constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#20#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/play/PlayState.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="420">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
@@ -684,30 +655,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/game/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="41" column="70" lean-forward="true" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+          <folding>
+            <element signature="e#20#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/states/play/PlayStateHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/states/watch/Level.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/game/states/play/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/Blob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/states/watch/WatchState.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="285">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/PlayBlob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/states/play/playStateLogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/play_data/pillar-data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/play_data/event-data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/states/watch/WatchStateHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="236">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/CreateTrainingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/states/watch/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/states/watch/Pillar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/states/watch/LevelAndPillar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/states/watch/Level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

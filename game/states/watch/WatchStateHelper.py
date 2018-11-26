@@ -1,8 +1,8 @@
 import pygame
 import Constants
 
-from states.play.LevelAndPillar import LevelAndPillar
-from states.play.Player import Player
+from states.watch.LevelAndPillar import LevelAndPillar
+from states.watch.Player import Player
 
 
 # Creates player and pillar assets
@@ -28,7 +28,7 @@ def createPlayerGroup(player):
 
 # Starts game music, creates the clock, and creates pillar generation timer
 def createLoopUtilities():
-    pygame.mixer.music.load(Constants.PLAY_MUSIC_PATH)
+    pygame.mixer.music.load(Constants.WATCH_MUSIC_PATH)
     pygame.mixer.music.play(-1)
 
     clock = pygame.time.Clock()
@@ -37,18 +37,18 @@ def createLoopUtilities():
 
 
 # Handles player movement
-def playerMovementEvents(event, player):
-    if (event.type == pygame.KEYDOWN):
-        if (event.key == pygame.K_LEFT):
+def playerMovementEvents(event, player, ai_action):
+    if (ai_action['event'] == pygame.KEYDOWN):
+        if (ai_action['key'] == pygame.K_LEFT):
             player.go_left()
-        if (event.key == pygame.K_RIGHT):
+        if (ai_action['key'] == pygame.K_RIGHT):
             player.go_right()
-        if (event.key == pygame.K_UP):
+        if (ai_action['key'] == pygame.K_UP):
             player.jump()
-    if (event.type == pygame.KEYUP):
-        if (event.key == pygame.K_LEFT) and (player.change_x < 0):
+    if (ai_action['event'] == pygame.KEYUP):
+        if (ai_action['key'] == pygame.K_LEFT) and (player.change_x < 0):
             player.stop()
-        if (event.key == pygame.K_RIGHT) and (player.change_x > 0):
+        if (ai_action['key'] == pygame.K_RIGHT) and (player.change_x > 0):
             player.stop()
 
 

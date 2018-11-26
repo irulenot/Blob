@@ -40,6 +40,7 @@ game_directory = game_path.split("Blob",1)[0]
 
 PLAY_MUSIC_PATH = game_directory + 'Blob/resources/Platformer2.mp3'
 MENU_MUSIC_PATH = game_directory + 'Blob/resources/bensound-thelounge.mp3'
+WATCH_MUSIC_PATH = game_directory + 'Blob/resources/bensound-allthat.mp3'
 
 PILLAR_LOG_PATH = game_directory + 'Blob/data/play_data/pillar-log.txt'
 PILLAR_DATA_PATH = game_directory + 'Blob/data/play_data/pillar-data.txt'

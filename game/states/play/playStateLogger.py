@@ -36,11 +36,11 @@ def manageLogs(out_state):
 
         event_log = open(Constants.EVENT_LOG_PATH, "r")
         event_data = open(Constants.EVENT_DATA_PATH, "a")
-        event_data.write(event_log.read())
+        event_data.write(event_log.read() + 'PLAYEND\n\n')
 
         pillar_log = open(Constants.PILLAR_LOG_PATH, "r")
         pillar_data = open(Constants.PILLAR_DATA_PATH, "a")
-        pillar_data.write(pillar_log.read())
+        pillar_data.write(pillar_log.read() + 'PLAYEND\n\n')
 
     open(Constants.EVENT_LOG_PATH, 'w').close()
     open(Constants.PILLAR_LOG_PATH, 'w').close()

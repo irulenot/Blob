@@ -1,8 +1,6 @@
 import pygame
 import Constants
 
-from data.game_helpers.playDataHelper import logPillarData
-
 class Pillar(pygame.sprite.Sprite):
     change_x = 0
     change_y = 0
@@ -39,5 +37,3 @@ class Pillar(pygame.sprite.Sprite):
         # Deletes pillars after they leave window
         if cur_pos <= -Constants.PILLAR_WIDTH:
             self.kill()
-
-        logPillarData(self)
