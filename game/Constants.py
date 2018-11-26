@@ -32,12 +32,12 @@ BUTTON_Y_START = SCREEN_HEIGHT / 2 - PILLAR_HEIGHT / 2
 game_path = str(Path().absolute())
 game_directory = game_path.split("Blob", 1)[0]
 
-PLAY_MUSIC_PATH = game_directory + 'Blob/resources/Platformer2.mp3'
-MENU_MUSIC_PATH = game_directory + 'Blob/resources/bensound-thelounge.mp3'
-WATCH_MUSIC_PATH = game_directory + 'Blob/resources/bensound-allthat.mp3'
+PLAY_MUSIC_PATH = game_directory + '/Blob/resources/Platformer2.mp3'
+MENU_MUSIC_PATH = game_directory + '/Blob/resources/bensound-thelounge.mp3'
+WATCH_MUSIC_PATH = game_directory + '/Blob/resources/bensound-allthat.mp3'
 
-LOG_PATH = game_directory + 'Blob/data/log.txt'
-PLAY_DATA_PATH = game_directory + 'Blob/data/play_data.txt'
+LOG_PATH = game_directory + '/Blob/data/log.txt'
+PLAY_DATA_PATH = game_directory + '/Blob/data/play_data.txt'
 
 # States
 PLAY_STATE = "PLAY"

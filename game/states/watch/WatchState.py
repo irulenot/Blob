@@ -1,6 +1,3 @@
-import Constants
-import sys
-sys.path.append(Constants.game_directory + "Blob/")
 import ai.PlayBlob as ai
 
 import Logger
