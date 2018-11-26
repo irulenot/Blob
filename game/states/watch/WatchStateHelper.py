@@ -1,8 +1,8 @@
 import pygame
 import Constants
 
-from states.watch.LevelAndPillar import LevelAndPillar
-from states.watch.Player import Player
+from engine.LevelAndPillar import LevelAndPillar
+from engine.Player import Player
 
 
 # Creates player and pillar assets
@@ -39,17 +39,17 @@ def createLoopUtilities():
 # Handles player movement
 def playerMovementEvents(event, player, ai_action):
     if (ai_action['event'] == pygame.KEYDOWN):
-        if (ai_action['key'] == pygame.K_LEFT):
-            player.go_left()
-        if (ai_action['key'] == pygame.K_RIGHT):
-            player.go_right()
+        # if (ai_action['key'] == pygame.K_LEFT):
+        #     player.go_left()
+        # if (ai_action['key'] == pygame.K_RIGHT):
+        #     player.go_right()
         if (ai_action['key'] == pygame.K_UP):
             player.jump()
-    if (ai_action['event'] == pygame.KEYUP):
-        if (ai_action['key'] == pygame.K_LEFT) and (player.change_x < 0):
-            player.stop()
-        if (ai_action['key'] == pygame.K_RIGHT) and (player.change_x > 0):
-            player.stop()
+    # if (ai_action['event'] == pygame.KEYUP):
+    #     if (ai_action['key'] == pygame.K_LEFT) and (player.change_x < 0):
+    #         player.stop()
+    #     if (ai_action['key'] == pygame.K_RIGHT) and (player.change_x > 0):
+    #         player.stop()
 
 
 # Handles exit button and loops music when finished

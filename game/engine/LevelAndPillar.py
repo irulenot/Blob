@@ -1,6 +1,6 @@
 import Constants
-from states.watch.Level import Level
-from states.watch.Pillar import Pillar
+from engine.Level import Level
+from engine.Pillar import Pillar
 
 
 # Creates the level, puts the player in it, and generates the pillars and their properties
