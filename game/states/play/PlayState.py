@@ -3,7 +3,6 @@ from states.play.PlayStateHelper import *
 
 
 def runPlayState(screen):
-
     # Play State Initalization
     player, level_and_pillar = prepareAssets()
     initalizePlayer(player, level_and_pillar)

@@ -1,4 +1,5 @@
 import pygame
+
 import Constants
 
 
@@ -14,7 +15,6 @@ class Level(object):
     # Update pillars on level
     def update(self):
         self.pillar_list.update()
-
 
     # Draws background and pillars
     def draw(self, screen):

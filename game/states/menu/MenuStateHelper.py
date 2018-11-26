@@ -1,17 +1,18 @@
-import Constants
 import pygame
+
+import Constants
 from states.menu.Button import Button
 
 
 # Creates button asset and assigns it to a group
 def loadAssets():
     play_button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
-                    Constants.BUTTON_X_START, Constants.BUTTON_Y_START,
-                    Constants.CLICK_PLAY)
+                         Constants.BUTTON_X_START, Constants.BUTTON_Y_START,
+                         Constants.CLICK_PLAY)
 
     watch_button = Button(Constants.BUTTON_WIDTH, Constants.BUTTON_HEIGHT,
-                    Constants.BUTTON_X_START - Constants.BUTTON_WIDTH*2,
-                    Constants.BUTTON_Y_START, Constants.CLICK_WATCH)
+                          Constants.BUTTON_X_START - Constants.BUTTON_WIDTH * 2,
+                          Constants.BUTTON_Y_START, Constants.CLICK_WATCH)
 
     asset_group = pygame.sprite.Group()
     asset_group.add(play_button)
@@ -30,7 +31,6 @@ def createLoopUtilities():
 
 # Listens for pygame events, such as exit and clicking on button
 def handleEvents(event, done, out_state):
-
     if (event.type == Constants.CLICK_PLAY):
         done = True
         out_state = Constants.PLAY_STATE
@@ -60,7 +60,7 @@ def render(screen, clock, asset_group):
     screen.blit(font.render('PLAY', True, Constants.RED), (Constants.BUTTON_X_START, Constants.BUTTON_Y_START))
 
     font = pygame.font.SysFont('Arial', 20)
-    screen.blit(font.render('WATCH', True, Constants.RED), (Constants.BUTTON_X_START+1 - Constants.BUTTON_WIDTH*2,
+    screen.blit(font.render('WATCH', True, Constants.RED), (Constants.BUTTON_X_START + 1 - Constants.BUTTON_WIDTH * 2,
                                                             Constants.BUTTON_Y_START))
 
     clock.tick(60)

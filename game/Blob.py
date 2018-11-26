@@ -1,11 +1,10 @@
 import pygame
-import Initalization
+
 import Constants
-
-from states.play.PlayState import runPlayState
+import Initalization
 from states.menu.MenuState import runMenuState
+from states.play.PlayState import runPlayState
 from states.watch.WatchState import runWatchState
-
 
 """ MAIN LOOP """
 screen, current_state = Initalization.loadEnvironment()

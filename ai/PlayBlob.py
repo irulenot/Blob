@@ -1,30 +1,27 @@
-import pygame
-import Constants
-import Logger
 import re
 
+import pygame
 
-# AI thinks about what to do in this instance and returns an action
-def think_cycle():
+import Constants
 
+
+# AI's evaluation acted on
+def decision():
     action = evaluation()
 
-    # Clears the log as no longer relevant
-    Logger.clearLog()
-
-    if(action == "JUMP"):
-        return { 'event':pygame.KEYDOWN, 'key':pygame.K_UP }
+    if (action == "JUMP"):
+        return {'event': pygame.KEYDOWN, 'key': pygame.K_UP}
 
     return None
 
 
-# AI looks at pillars then returns an action
+# TO BE REPLACED
 def evaluation():
     log_file = open(Constants.LOG_PATH, "r")
     log_data = log_file.read()
 
     log_parse = re.split('rect[(]|, 650, 50', log_data)
-    if(len(log_parse) > 1):
+    if (len(log_parse) > 1):
         closest_pillar = int(log_parse[1])
 
         if (closest_pillar > 380) and (closest_pillar < 450):

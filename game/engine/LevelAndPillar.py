@@ -5,17 +5,14 @@ from engine.Pillar import Pillar
 
 # Creates the level, puts the player in it, and generates the pillars and their properties
 class LevelAndPillar(Level):
-
     level_limit = -1500
 
     # Initalizes player and pillars in level
     def __init__(self, player):
         Level.__init__(self, player)
 
-
     # Creates pillars
     def generatePillar(self):
-
         pillar = Pillar(Constants.PILLAR_WIDTH, Constants.PILLAR_HEIGHT)
         pillar.rect.x = Constants.PILLAR_X_START
         pillar.rect.y = Constants.PILLAR_Y_START

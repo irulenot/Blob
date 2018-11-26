@@ -2,15 +2,8 @@ import Constants
 import pandas as pd
 
 def getTrainingDataframe():
-    data_file = open(Constants.LOG_PATH, "r")
-    pillar_data = open(Constants.PLAY_DATA_PATH, "a")
-    # pillar_data.write(pillar_log.read() + '\n\n')
-    # rectangle position, jump
+    data = pd.read_csv(Constants.PLAY_DATA_PATH, sep="\n", header=None)
+    # parsed_data = data[data[:].str.contains("KeyDown")]
+    print(data)
 
-def getTrainingExample():
-    pass
-
-
-
-# given closest pillar location
-# return if jump or not
+getTrainingDataframe()

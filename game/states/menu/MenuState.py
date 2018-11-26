@@ -1,9 +1,7 @@
 from states.menu.MenuStateHelper import *
-import pygame
-import Constants
+
 
 def runMenuState(screen):
-
     asset_group = loadAssets()
     clock = createLoopUtilities()
 

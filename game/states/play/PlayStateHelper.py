@@ -1,6 +1,6 @@
 import pygame
-import Constants
 
+import Constants
 from engine.LevelAndPillar import LevelAndPillar
 from engine.Player import Player
 

@@ -1,7 +1,8 @@
 import pygame
-import Constants
 
+import Constants
 from Logger import logPillarData
+
 
 class Pillar(pygame.sprite.Sprite):
     change_x = 0
@@ -20,7 +21,6 @@ class Pillar(pygame.sprite.Sprite):
         self.image = pygame.Surface([width, height])
         self.image.fill(Constants.GREEN)
         self.rect = self.image.get_rect()
-
 
     # Continually updates pillar movement, and logic
     def update(self):

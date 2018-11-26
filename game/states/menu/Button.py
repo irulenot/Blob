@@ -2,6 +2,7 @@ import pygame
 
 import Constants
 
+
 class Button(pygame.sprite.Sprite):
     boundary_top = 0
     boundary_bottom = 0
@@ -17,7 +18,6 @@ class Button(pygame.sprite.Sprite):
         self.action = action
         self.rect.x = x_position
         self.rect.y = y_position
-
 
     def update(self):
         pygame.mouse.get_pressed()

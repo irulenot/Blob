@@ -1,4 +1,5 @@
 import pygame
+
 import Constants
 
 
@@ -22,13 +23,11 @@ class Player(pygame.sprite.Sprite):
         self.change_x = 0
         self.change_y = 0
 
-
     # Continually updates movement and gravity on Player
     def update(self):
         self.calc_grav()
         self.rect.x += self.change_x
         self.rect.y += self.change_y
-
 
     def calc_grav(self):
         if self.change_y == 0:
@@ -41,7 +40,6 @@ class Player(pygame.sprite.Sprite):
             self.change_y = 0
             self.rect.y = Constants.SCREEN_HEIGHT - self.rect.height
 
-
     def jump(self):
         # move down a bit and see if there is a pillar below us.
         # Move down 2 pixels because it doesn't work well if we only move down
@@ -53,7 +51,6 @@ class Player(pygame.sprite.Sprite):
         # If it is ok to jump, set our speed upwards
         if len(pillar_hit_list) > 0 or self.rect.bottom >= Constants.SCREEN_HEIGHT:
             self.change_y = -10
-
 
     # Player-controlled movement: left
     def go_left(self):

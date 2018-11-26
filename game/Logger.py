@@ -20,13 +20,13 @@ def logEvents(event):
 
 # Writes to play_data files if play state completed properly
 def finishLog(out_state):
-
-    if(out_state == Constants.MENU_STATE):
+    if (out_state == Constants.MENU_STATE):
         log_file = open(Constants.LOG_PATH, "r")
         play_data_file = open(Constants.PLAY_DATA_PATH, "a")
         play_data_file.write(log_file.read() + '\n\n')
 
     clearLog()
+
 
 def clearLog():
     open(Constants.LOG_PATH, 'w').close()
