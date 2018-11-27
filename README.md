@@ -1,6 +1,6 @@
 # Blob
 
-## Installation
+## Local Installation
 
 For this project you must have `python3` and `pip3` installed. For OSX this means
 
@@ -20,12 +20,22 @@ Finally, run with
 python3 game/Blob.py
 ```
 
-## FILE STRUCTURE
+## Virtual Environment
 
-game Contains the code for the game.  
-pm Contains project management documents.  
-venv.yaml Used to create dependencies with Anaconda.
+Create my conda environment `Blob`
 
-## DEPENDENCIES
+```
+conda env create -f venv.yaml
+```
 
-This project requires Python3 and Pygame. Run the program in the game directory with app.py.
+Then, activate `Blob` in order to use it
+
+```
+source activate Blob
+```
+
+Finally, run with
+
+```
+python game/Blob.py
+```
